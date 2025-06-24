@@ -149,12 +149,133 @@
 22) What are the main downsides or limitations of using Trino?
 (Consider factors like query performance at extreme scale, compatibility with certain data sources, operational complexity, or limitations in handling highly transactional workloads.)
 
-## Trino Hands on Practice
+# 🧪 Trino Hands-On Practice: Setting Up Catalogs and Querying External Data
+## 🎯 Goals
+* Deploy a local Trino environment using Docker Compose.
 
-### Step 1: Setup
+* Configure Trino to connect to external data sources (Hive on MinIO and TPCH).
 
-1) Run Trino locally using the image were using in prod.
-2) Configure a catalog
+* Upload data using MinIO and query it using Trino.
+
+* Learn how Trino federates data from different catalogs.
+
+🧱 Step 1: Environment Setup
+Clone the starter repository or download the setup files provided by your instructor.
+
+Run:
+```
+git clone https://github.com/883G/Onboarding-Newbies.git
+cd ./chapter_06/exercise_files/trino-compose
+docker compose up -d
+```
+This starts the following services:
+
+* Trino
+
+* Minio (S3-compatible storage)
+
+* Hms (Hive Metastore)
+
+* PostgresDb (mainly used by hms)
+
+Access Trino Web UI:
+👉 http://localhost:8080
+
+Access MinIO UI:
+👉 http://localhost:9000
+Login:
+
+Access Key: trino-compose
+
+Secret Key: trino-compose
+
+📁 Step 2: Upload External Data to MinIO
+In the MinIO UI:
+
+Create a bucket named warehouse
+
+Upload the provided CSV file (chapter_06/exercise_files/assests/orders_sample.csv) into a folder:
+warehouse/orders/
+
+
+⚙️ Step 3: Add a Hive Catalog
+* Create a file named hive.properties in etc\catalog\hive.properties
+* Add needed config as shown at [trino docs]("https://trino.io/docs/current/connector/hive.html").
+
+It might take some trail and error, Dont be afraid!
+
+Restart Trino (and anwaer in a file why reatart is needed)?
+
+```
+docker compose restart trino
+```
+
+In Trino CLI/Web UI, run:
+##todo finish
+now create schema named default in hive catalog only if not exist (docume)
+
+CREATE TABLE hive.default.orders (
+  o_orderkey BIGINT,
+  o_custkey BIGINT,
+  o_orderstatus VARCHAR,
+  o_totalprice DOUBLE,
+  o_orderdate DATE,
+  o_orderpriority VARCHAR,
+  o_clerk VARCHAR,
+  o_shippriority INTEGER,
+  o_comment VARCHAR
+)
+WITH (
+  external_location = 's3a://warehouse/orders/',
+  format = 'CSV',
+  skip_header_line_count = 1
+);
+
+SELECT * FROM hive.default.orders LIMIT 10;
+📊 Step 4: Add TPCH Catalog
+Create a file named tpch.properties in trino/catalog/:
+
+properties
+Copy
+Edit
+connector.name=tpch
+Restart Trino (again) and verify:
+
+sql
+Copy
+Edit
+SHOW SCHEMAS FROM tpch;
+SHOW TABLES FROM tpch.tiny;
+Run a simple query:
+
+sql
+Copy
+Edit
+SELECT name, regionkey FROM tpch.tiny.nation LIMIT 5;
+🔀 Step 5: Join Hive and TPCH Data
+Try a federated query that joins both sources:
+
+sql
+Copy
+Edit
+SELECT
+  o.o_orderkey,
+  o.o_custkey,
+  o.o_orderdate,
+  n.name AS nation
+FROM
+  hive.default.orders o
+JOIN
+  tpch.tiny.nation n
+ON
+  o.o_custkey = n.nationkey
+LIMIT 10;
+🧠 Reflection Questions
+What would happen if the catalog file had a typo?
+
+How does Trino query two completely separate data sources in one query?
+
+What happens if you restart only the Hive Metastore?
 
 ## **Wrapping Up:** :hourglass_flowing_sand:
 Reflect on today's learning's with your mentor and peers. Discuss potential projects or use cases where you can apply Trino for distributed query processing and analytics. Consider how Trino can enhance your data analysis capabilities and streamline your data workflows.
