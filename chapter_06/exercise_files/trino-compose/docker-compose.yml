@@ -5,8 +5,6 @@ services:
     ports:
       - "8080:8080"
     image: "trinodb/trino:476"
-    environment:
-      TRINO_HISTORY_FILE: /etc/trino/history-server/history.text
     volumes:
       - ./etc:/etc/trino
 
