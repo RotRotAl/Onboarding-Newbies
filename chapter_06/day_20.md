@@ -82,9 +82,9 @@
 
 ## 🎯 Goals
 - Deploy a local Trino environment using Docker Compose.
-- Configure Trino to connect to external data sources (Hive on MinIO).
+- Configure Trino catalogs (Hive on MinIO and TPCH).
 - Upload data using MinIO and query it using Trino.
-- Learn how create Trino query from different catalogs.
+- Learn how create Trino query using different catalogs.
 
 📌 **Note:**  
 There are several questions in this exercise. Please answer them in a separate file and send them to your mentor.
