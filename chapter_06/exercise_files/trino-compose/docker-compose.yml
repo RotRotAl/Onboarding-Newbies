@@ -78,7 +78,7 @@ services:
     entrypoint: |
       /bin/bash -c "
       sleep 5;
-      /usr/bin/mc config --quiet host add myminio http://minio:9000 minio minio123;
+      /usr/bin/mc config --quiet host add myminio http://minio:9000 trino-compose trino-compose;
       /usr/bin/mc mb --quiet myminio/datalake
       "
     depends_on:
