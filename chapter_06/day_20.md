@@ -82,9 +82,9 @@
 
 ## 🎯 Goals
 - Deploy a local Trino environment using Docker Compose.
-- Configure Trino to connect to external data sources (Hive on MinIO).
+- Configure Trino catalogs (Hive on MinIO and TPCH).
 - Upload data using MinIO and query it using Trino.
-- Learn how create Trino query from different catalogs.
+- Learn how create Trino query using different catalogs.
 
 📌 **Note:**  
 There are several questions in this exercise. Please answer them in a separate file and send them to your mentor.
@@ -194,7 +194,7 @@ docker compose restart trino
 
 3. Locate the query you just executed and explore the query details like(and explain about those):
 - Execution time
-- CPU time(explain how come is it longer than the excution time)
+- CPU time (explain how come is it longer than the excution time)
 
 ✍️ In the answer file, document the join query and **at least 3 query statistics from the Trino Web UI**, and explain what each of them means.
 
