@@ -39,11 +39,11 @@
 #### Chapter 3: Advanced Features and Optimization
   - **Spill To Disk:**
     - Explanation of the spill-to-disk mechanism, its role in handling large queries, and scenarios where it is triggered.
-  - **Storage:**
+  - **Get Familiar With Supported Storage:**
     - Understanding the integration of Trino with storage systems such as HDFS and S3.
-  - **Functions & Operators:**
+  - **Get Familiar With What Functions & Operators Supported:**
     - Insights into combining functions to create complex expressions for advanced querying.
-  - **User Defined Functions:**
+  - **Get Familiar With How User Defined Functions Supported:**
     - Overview of UDFs in Trino, including how to create and use custom functions to extend Trino's capabilities.
 
   - **Resource Groups:**
