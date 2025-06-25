@@ -194,7 +194,7 @@ docker compose restart trino
 
 3. Locate the query you just executed and explore the query details like(and explain about those):
 - Execution time
-- CPU time(explain how come is it longer than the excution time)
+- CPU time (explain how come is it longer than the excution time)
 
 ✍️ In the answer file, document the join query and **at least 3 query statistics from the Trino Web UI**, and explain what each of them means.
 
