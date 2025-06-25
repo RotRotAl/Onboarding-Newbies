@@ -9,7 +9,7 @@
 - Understanding Trino's core concepts and architecture is essential for effectively querying and analyzing distributed data sources.
 
 
-### Read the following chapters from the [Trino Documentation](https://trino.io/docs/current/index.html)
+### Read the following concepts from the [Trino Documentation](https://trino.io/docs/current/index.html)
 #### Chapter 1: Introduction to Trino
   - **What is Trino?:**
     - Introduction to the Trino project, its history, and its role in the data ecosystem.
@@ -82,9 +82,9 @@
 
 ## 🎯 Goals
 - Deploy a local Trino environment using Docker Compose.
-- Configure Trino to connect to external data sources (Hive on MinIO and TPCH).
+- Configure Trino to connect to external data sources (Hive on MinIO).
 - Upload data using MinIO and query it using Trino.
-- Learn how Trino federates data from different catalogs.
+- Learn how create Trino query from different catalogs.
 
 📌 **Note:**  
 There are several questions in this exercise. Please answer them in a separate file and send them to your mentor.
@@ -102,10 +102,10 @@ docker compose up -d
 ```
 
 This will start the following services:
-- **Trino** (query engine)
+- **Trino**
 - **MinIO** (S3-compatible object storage)
-- **HMS** (Hive Metastore)
-- **PostgresDB** (used by HMS for metadata storage)
+- **Hive Metastore**
+- **PostgresDB** (used by Hive Metastore for metadata storage)
 
 Access the interfaces:
 - Trino UI: 👉 [http://localhost:8080](http://localhost:8080)
@@ -142,10 +142,10 @@ Secret Key: trino-compose
    etc/catalog/hive.properties
    ```
 2. Add the required configuration for the Hive connector.  
-   ✍️ Refer to the official documentation for help:  
+   Refer to the official documentation for help:  
    [Hive Connector – Trino Docs](https://trino.io/docs/current/connector/hive.html)
 
-📁 Add your config and explanation in the answers file.
+✍️  Add your config and explanation in the answers file.
 
 > 🧪 It might take some trial and error—don’t be afraid to experiment!
 
@@ -192,20 +192,20 @@ docker compose restart trino
 
 2. Visit the Trino UI at [http://localhost:8080](http://localhost:8080)
 
-3. Locate the query you just executed and explore the query details like:
+3. Locate the query you just executed and explore the query details like(and explain about those):
 - Execution time
-- CPU time
+- CPU time(explain how come is it longer than the excution time)
 
-✍️ In the answer file, document the join query and **at least 5 query statistics from the web ui**, and explain what each of them means.
+✍️ In the answer file, document the join query and **at least 3 query statistics from the Trino Web UI**, and explain what each of them means.
 
 ---
 
 ### 🧠 Reflection Questions
 
-All answers should be documented in `trino_exercise_answers.md`.
+All answers should be documented in file!
 
 1. What would happen if the catalog file had a typo?  
-2. How does Trino query two completely separate data sources in one query?  
+2. How does Trino query two completely separate data sources in one query(technically)?  
 3. What happens if you restart only the Hive Metastore?
 
 
