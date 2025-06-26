@@ -4,7 +4,8 @@ services:
       - trino-net
     ports:
       - "8080:8080"
-    image: "trinodb/trino:476"
+    image: "trinodb/trino"
+
     volumes:
       - ./etc:/etc/trino
 
