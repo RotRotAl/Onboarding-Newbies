@@ -123,7 +123,7 @@ Secret Key: trino-compose
 ### 📁 Step 2: Upload External Data to MinIO
 
 1. Open MinIO UI.
-2. Create a **new bucket** named: `warehouse` (Don`t create it as path under datalke! create an actual bucket!)
+2. Create a **new bucket** named: `warehouse` (Don`t create it as path under datalake! create your own bucket!)
 3. Upload the provided CSV file located at:
    ```
    chapter_06/exercise_files/assets/orders_sample.csv
