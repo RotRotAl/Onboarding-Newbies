@@ -123,14 +123,14 @@ Secret Key: trino-compose
 ### 📁 Step 2: Upload External Data to MinIO
 
 1. Open MinIO UI.
-2. Create a new bucket named: `warehouse`
+2. Create a **new bucket** named: `warehouse` (Don`t create it as path under datalake! create your own bucket!)
 3. Upload the provided CSV file located at:
    ```
    chapter_06/exercise_files/assets/orders_sample.csv
    ```
    into the following path:
    ```
-   warehouse/orders/
+   /warehouse/orders_sample.csv
    ```
 
 ---
@@ -157,11 +157,14 @@ docker compose restart trino
 
 ✍️ **Answer:** Why is a restart required after adding the catalog? Document your explanation in the answer file.
 
-4. Use Trino CLI or Web UI to:
+4. Use Trino CLI:
 - Create the `default` schema in the Hive catalog if it doesn't already exist.
 - Create an **external table** pointing to the CSV file uploaded to MinIO.
   - Remember to **skip the header** row in the file.
 - try quering the newly created table
+
+  > How to use trino cli? </br>
+  > Enter Docker Desktop -> Find the Trino container -> Click Exec in the Trino container -> Write ```trino ```
 
 ✍️ Document how you created the schema and table in your answers.
 
