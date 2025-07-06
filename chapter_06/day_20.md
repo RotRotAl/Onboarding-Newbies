@@ -96,8 +96,8 @@ There are several questions in this exercise. Please answer them in a separate f
 Clone the starter repository and start the environment:
 
 ```bash
-git clone https://github.com/883G/Onboarding-Newbies.git && cd Onboarding-Newbies
-cd ./chapter_06/exercise_files/trino-compose
+git clone https://github.com/883G/Onboarding-Newbies.git
+cd ./Onboarding-Newbies/chapter_06/exercise_files/trino-compose
 docker compose up -d
 ```
 
