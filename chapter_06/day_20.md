@@ -97,7 +97,7 @@ Clone the starter repository and start the environment:
 
 ```bash
 git clone https://github.com/883G/Onboarding-Newbies.git
-cd ./chapter_06/exercise_files/trino-compose
+cd ./Onboarding-Newbies/chapter_06/exercise_files/trino-compose
 docker compose up -d
 ```
 
