@@ -26,6 +26,20 @@ Each day will have a set of tasks, goals, and resources to guide you through the
 :computer:
 - **[Showcase 01](./chapter_01/showcase/showcase_01.md):** Develop a high-level understanding of the Hadoop ecosystem and its role in big data processing. :mag_right:
 
+## Chapter 02: Docker & Openshift basics
+- **Day 09:** Opening lecture
+- **Day 10:** Embracing Docker
+- **Day 11:** Openshift fundamentals
+
+## Chapter 03: Python development & DevOps principals
+- **Day 12:** Python internals
+- **Day 13:** The philosophy of writing code
+- **Day 14:** Setting up your development environment
+- **Day 15:** Getting familiar with Python syntax
+- **Day 16:** Mastering testing & CI
+- **Day 17:** Code shipping & Deployment
+- **Day 18:** Group codebases introduction
+
 ## Chapter 02: Basic Docker & Testing & CI-CD
 - **[Day 09](./chapter_02/day_09.md):** Mastering OOP and Design Principles with Test-Driven Development (TDD)
 - **[Day 10](./chapter_02/day_10.md):**  Writing Clean Code
