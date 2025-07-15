@@ -22,6 +22,16 @@ You can access the book via [this](https://cfm.ehu.es/ricardo/docs/python/Learni
 
 You may, of course, explore regions other subjects the interest you within the book, as you long as you stay within the designated time period that your mentor has given you.
 
+## Design patterns
+
+This section is about the various design patterns and their usages.
+
+Firstly, read what even is a `design pattern`, then, read about the following design patterns:
+
+- TDD
+- Repository pattern
+- Factory method
+
 ## Discussion
 
 During this part, you and your mentor will take part in another discussion, to verify your knowledge in the subjects you have learned.
@@ -35,6 +45,7 @@ You may use the following questions as a guide to help you prepare. Note that th
 5. What is a python package?
 6. What is a JIT compiler in Python?
 7. How can one run Java from a Python program (hint: Py4J)
+8. Explain what are design patterns and give 2 examples for design patterns.
 
 ## Wrapping up
 
