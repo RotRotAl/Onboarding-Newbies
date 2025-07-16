@@ -10,6 +10,10 @@ Welcome to chapter 3! Todays session is all about the internals of the `Python` 
 - Know all about what happens when you run a python program.
 - Learn how the vast number of Python features can be integrated into your code.
 
+## Time limit
+
+The time limit for this session is a day and a half (including discussions & re-dos).
+
 ## Python book
 
 During this part, you will read some chapters out of `O'Reilly's Learning Python` book.

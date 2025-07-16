@@ -13,6 +13,10 @@ Today, you will not be given exact reading material, like a book/links. Part of 
 - Learn how Argo is used with helm to automate `helm chart` deployment.
 - Hone the skill of learning subjects by yourself with little to no assistance.
 
+## Time limit
+
+The time limit for this session is a day and a half.
+
 ## Helm guiding questions
 
 1. What is helm and what problem does it solve in k8s?

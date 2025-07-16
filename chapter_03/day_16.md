@@ -11,6 +11,10 @@ Pay attention ⚠️, this is perhaps the hardest chapter you've encountered, do
 - Learn how to use `unittest` and `pytest` to write unit tests for Python code.
 - Learn the syntax and power of Gitlab CI.
 
+## Time limit
+
+The time limit for this session is 3 days.
+
 ## Setup
 
 This chapter is `INTERNAL` (the resources are available inside the closed network).

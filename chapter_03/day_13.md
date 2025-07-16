@@ -10,6 +10,10 @@ Welcome to day 13! This session will discuss the complicated process of making d
 - Learn basic programming rhetorics like `MR` `DR` etc.
 - Learn how discussions are held within coding groups.
 
+## Time limit
+
+The time limit for this session is 2 hours.
+
 ## Lecture
 
 Please refer to the corresponding instructions depending on your role.

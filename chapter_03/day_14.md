@@ -8,6 +8,10 @@ Welcome to day 14! This day is all about configuring your local development envi
 
 - Have a working, ready to go development environment.
 
+## Time limit
+
+The time limit for this session is half a day.
+
 ## IDE configuration
 
 ### Installation

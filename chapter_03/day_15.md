@@ -9,6 +9,10 @@ Welcome to day 15! Today, you will familiarize yourself with basic Python syntax
 - Learn basic Python syntax.
 - Gain `leetcode` karma.
 
+## Time limit
+
+The time limit for this session is a day.
+
 ## Getting started
 
 ### Registration

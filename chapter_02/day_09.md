@@ -11,6 +11,10 @@ The next two chapters of the onboarding will be a bit different from what you ar
 - An open space for you to ask questions, and learn from your mentor.
 - Understand the guiding principals that manifested the content and flow of the next two chapters.
 
+## Time limit
+
+The time limit for this session is 2.5 hours.
+
 ## Lecture
 
 Please refer to the corresponding instructions depending on your role.

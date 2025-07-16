@@ -10,6 +10,10 @@ Today, we're setting sail on a journey into the world of Docker, a powerful tool
 - Understand the core concepts of containers.
 - Learn basic Docker commands.
 
+## Time limit
+
+The time limit for this session is half a day.
+
 ## Introduction to Docker
 
 ### Docker Basics

@@ -10,6 +10,10 @@ In this session, you will learn about `Openshift`, the industry-standard infrast
 - Understand Openshift's architecture and features.
 - Learn how Openshift's features work together to create a holistic ecosystem.
 
+## Time limit
+
+The time limit for this session is a day.
+
 ## Openshift labs
 
 This chapter is **internal**, meaning that the exercises and reading materials are available inside the closed network.
