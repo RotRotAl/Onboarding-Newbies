@@ -12,7 +12,7 @@ Welcome to day 13! This session will discuss the complicated process of making d
 
 ## Lecture
 
-TODO: Add lecture presentation.
+Please refer to the corresponding instructions depending on your role.
 
 ### Student instructions
 
@@ -22,7 +22,7 @@ During this lecture, you will learn all you need to know about the process of ac
 ### Mentor instructions
 
 Mentor - like the first lecture, note the comments on each talking points in the slide's "notes" section.
-Download the presentation `the-philosophy-of-writing-code.pptx` to your computer and study it. Once you feel ready - call your newbie and present it. If you see fit and there's time - feel free to encourage further exploration by your student.
+Download the presentation `writing-code-without-writing-code.pptx` to your computer and study it. Once you feel ready - call your newbie and present it. If you see fit and there's time - feel free to encourage further exploration by your student.
 
 ## Action Items
 

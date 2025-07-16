@@ -13,7 +13,7 @@ The next two chapters of the onboarding will be a bit different from what you ar
 
 ## Lecture
 
-TODO: add presentation.
+Please refer to the corresponding instructions depending on your role.
 
 ### Student instructions
 

@@ -27,6 +27,7 @@ The installation wizards can be found in the `applications` windows-share (you h
 Test yourself, try the following to make sure you successfully installed and configured your development environment:
 
 - Attempt to run a simple Python program that prints out "Hello World" to the screen.
+- Attempt to debug that program.
 - Install a package, like `pydantic` using pip.
 
 ## Wrapping up
