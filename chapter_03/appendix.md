@@ -21,7 +21,7 @@ Make sure for each example that you show - to allow explain/ask the student to w
 Examples
 
 - Shared CI: an example for a production used Gitlab CI repository.
-- Export-mobile tests: - an example for tests for a production application.
+- Exportmobile tests: - an example for tests for a production application.
 - SOS image: an example for an image that is used in production applications (show the Dockerfile, CI pipeline etc.)
 - Mani: Python based production application.
-- Midgard-Chart: helm chart used to deploy our production services.
+- SharedChart: helm chart used to deploy our production services.

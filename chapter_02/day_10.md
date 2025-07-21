@@ -2,7 +2,7 @@
 
 ## Overview
 
-Today, we're setting sail on a journey into the world of Docker, a powerful tool that has revolutionized the way software is developed, tested, and deployed. Docker's containerization technology has become a cornerstone of modern software development, enabling teams to build, ship, and run applications consistently across different environments.
+Today, we're setting sail on a journey into the world of Docker - a powerful tool that has revolutionized the way software is developed, tested, and deployed. Docker's containerization technology has become a cornerstone of modern software development, enabling teams to build, ship, and run applications consistently across different environments.
 
 ## Goals
 
@@ -33,7 +33,7 @@ The time limit for this session is half a day.
 
 ### Reading sources
 
-You may use (but are not limited) these sources:
+You may use (but are not limited to) the following sources:
 
 - [What is Docker](https://aws.amazon.com/docker/#:~:text=Docker%20is%20a%20software%20platform,tools%2C%20code%2C%20and%20runtime.)
 - [Docker Wikipedia entry](https://en.wikipedia.org/wiki/Docker_(software))
@@ -44,12 +44,15 @@ You may use (but are not limited) these sources:
 
 Hands on exercise with Docker. You will need to sign in to enroll in the course. You may enroll with your Google account. [Docker hands on exercise](https://kodekloud.com/courses/labs-docker-for-the-absolute-beginner-hands-on/?utm_source=youtube&utm_medium=labs&utm_campaign=docker)
 
+Complete the entire course.
+
 ## Q&A Session :raising_hand:
 
-- Answer the following basic questions with your mentor:
+Answer the following basic questions with your mentor:
+
 - What is Docker and why is it used?
 - What is a Docker container? How does it differ from a virtual machine?
-- What's the diffrence between Docker image to a Docker container?
+- What's the difference between Docker image to a Docker container?
 - What is the purpose of a Dockerfile?
 - Can you describe the process of creating and using a custom Docker image?
 - What are docker layers? how they are created?

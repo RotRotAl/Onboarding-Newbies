@@ -36,6 +36,8 @@ Firstly, read what even is a `design pattern`, then, read about the following de
 - Repository pattern
 - Factory method
 
+You may use whichever sources you'd like, but we recommend [Refactoring Guru](https://refactoring.guru/design-patterns).
+
 ## Discussion
 
 During this part, you and your mentor will take part in another discussion, to verify your knowledge in the subjects you have learned.

@@ -32,11 +32,12 @@ The time limit for this session is a day and a half.
 ## Argo guiding questions
 
 1. What is Argo? How is it used to create automations?
-2. What are the main components of an Argo Airflow? Explain
-3. Research how to define an Argo workflow. Which basic parameters are mandatory to define a basic Argo workflow?
-4. How to create an automation that automatically deploys a chart that changes were pushed into?
-5. What are `step` and `template` in Argo?
-6. Read about error handling in Argo workflows.
+1. Explain the difference between Argo and Argo CD.
+1. What are the main components of an Argo Airflow? Explain
+1. Research how to define an Argo workflow. Which basic parameters are mandatory to define a basic Argo workflow?
+1. How to create an automation that automatically deploys a chart that changes were pushed into?
+1. What are `step` and `template` in Argo?
+1. Read about error handling in Argo workflows.
 
 ## Discussion
 

@@ -22,7 +22,6 @@ You have essentially 2 options (3 if you are brave).
 
 - Pycharm
 - Visual Studio Code
-- Vim (this is a joke)
 
 The installation wizards can be found in the `applications` windows-share (you have probably used this share folder before to install other programs) within the closed network. If you don't know the exact routing, you may ask your mentor for assistance.
 

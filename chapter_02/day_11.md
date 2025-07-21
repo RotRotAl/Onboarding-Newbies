@@ -18,7 +18,7 @@ The time limit for this session is a day.
 
 This chapter is **internal**, meaning that the exercises and reading materials are available inside the closed network.
 
-To Access them, open your PC that is connected to the closed network (if you don't have one yet - talk to your mentor). Once in, go to your chosen browser and type in the search bar the address: `http://go/orcalabs`.
+To Access the labs - talk to your mentor.
 
 These exercises are similar to the Docker labs that you have already completed.
 To complete this day, you are required to successfully finish the first and second labs. Note that sometimes the labs may bug out, so if something seems odd, like, for example, pods stuck on pending - feel free to approach your mentor for assistance.
