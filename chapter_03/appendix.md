@@ -24,4 +24,4 @@ Examples
 - Exportmobile tests: - an example for tests for a production application.
 - SOS image: an example for an image that is used in production applications (show the Dockerfile, CI pipeline etc.)
 - Mani: Python based production application.
-- SharedChart: helm chart used to deploy our production services.
+- CommonChart: helm chart used to deploy our production services (available under 883/joker in the Gitlab).

@@ -19,7 +19,7 @@ The time limit for this session is 3 days.
 
 This chapter is `INTERNAL` (the resources are available inside the closed network).
 
-- Navigate to the 883 unittest onboarding tutorial at `http://go/883ut-tutorial`.
+- Navigate to the 883 unittest onboarding tutorial at `883ut-tutorial`.
 - Clone the repository.
 - Checkout to a new branch.
 - Read the `README.md` and follow the `setup` instructions.
