@@ -1,72 +1,68 @@
+# Day 10 - Embracing Docker
 
-# Day 10 - Writing Clean Code :pencil2:
+## Overview
 
-## Overview:
-Today's focus is on mastering the art of writing clean, maintainable, and efficient code. We'll explore the best practices that not only make your code work but also ensure it's understandable, maintainable, and elegant. By diving into the seminal book "Clean Code" by Robert C. Martin, we aim to grasp the essence of crafting high-quality code that stands the test of time.
+Today, we're setting sail on a journey into the world of Docker - a powerful tool that has revolutionized the way software is developed, tested, and deployed. Docker's containerization technology has become a cornerstone of modern software development, enabling teams to build, ship, and run applications consistently across different environments.
 
-## **Goals:** 
-- Explore best practices for writing clean, maintainable, and efficient code.
-- Dive into the "Clean Code" book to understand the essence of writing good code.
+## Goals
 
-:warning: **Note:**
-- Writing clean code is not just about making your code work, but about making it understandable, maintainable, and elegant.
-- Pay close attention to the practices and try to internalize the mindset of writing clean code, as it will be a valuable asset throughout your career.
+- Understand the background story of Docker and the problem that is solves.
+- Understand the core concepts of containers.
+- Learn basic Docker commands.
 
-## 1. Writing Clean Code - Insights from "Clean Code"
+## Time limit
 
-- **Readings from "Clean Code" by Robert C. Martin:**
-  - Chapter 1 - **Clean Code**: Pages 0-7
-  - Chapter 2 -  **Meaningful Names**: Full Chapter
-  - Chapter 3 - **Functions** : Full Chapter
-  - Chapter 7 - **Error Handling** : Full Chapter
-  - Chapter 9 - **Unit tests** : Full Chapter
-  - Chapter 10 - **Classes** : Full Chapter
-- **Clean Code:** [Python Clean Code Examples](https://github.com/zedr/clean-code-python) - A collection of Python examples for the concepts in the book "Clean Code" by Robert C. Martin.
-### Core Concepts
+The time limit for this session is half a day.
 
-#### 1. **Writing Understandable Code:**
-   - Understand the importance of writing code that is easy to read, understand, and change.
-   - Learn how choosing meaningful names, writing small and focused functions, and organizing code thoughtfully contributes to code clarity and understandability.
+## Introduction to Docker
 
-#### 2. **The Art of Comments:**
-   - Delve into the role of comments in code and how to use them effectively.
-   - Learn when to prefer code refactoring over comments and how to write comments that add value and clarity to your code.
+### Docker Basics
 
-#### 3. **Code Formatting:**
-   - Grasp the significance of code formatting in enhancing code readability and maintenance.
-   - Understand the principles of good formatting and how consistency in formatting aids in understanding the codebase.
+- Understand what Docker is and the core concepts of containers.
+- Discuss the benefits of Docker in creating consistent and isolated environments.
 
-### Application and Discussion
+### Docker Components
 
-- **Mentor Discussion :**
-  - Engage in a mentor discussion to share insights and key takeaways from the readings.
-  - Discuss real-world scenarios where applying these principles has significantly improved the quality of the software.
+- Explore key Docker components such as images, containers, Dockerfiles etc.
+- Understand the role of each component in the Docker ecosystem.
 
-- **Hands-on Refactoring Session :**
-  - Review a piece of code and identify opportunities for applying the principles of clean code.
-  - Practice refactoring the code to improve its quality, readability, and maintainability.
+### Docker compose
 
-## Wrapping Up the Day
+- Learn how to use Docker Compose to define and run multi-container applications.
+- Understand the role of YAML files in defining Docker Compose applications.
 
-- **Reflection and Planning :**
-  - Reflect on the learnings of the day and how you can apply the principles of writing clean code in your daily work.
-  - Plan your approach for integrating these best practices into your coding routine.
+### Reading sources
 
-**Congratulations on completing Day 06! You're now more aware of the importance of clean code and the practices that can help you achieve it. Remember, every line of code you write is your signature. Make it count!**
+You may use (but are not limited to) the following sources:
 
-## Wrapping Up: :hourglass_flowing_sand:
-Discuss with your mentor about the day's learnings and explore potential project applications. Reflect on the significance of clean code and how you can apply these concepts in your coding endeavors.
+- [What is Docker](https://aws.amazon.com/docker/#:~:text=Docker%20is%20a%20software%20platform,tools%2C%20code%2C%20and%20runtime.)
+- [Docker Wikipedia entry](https://en.wikipedia.org/wiki/Docker_(software))
+- [The Docker architecture](https://sysdig.com/learn-cloud-native/docker-101-the-docker-components/#:~:text=alternative%20to%20Kubernetes.-,The%20Docker%20Architecture,-The%20core%20components)
+- [Docker Compose documentation](https://docs.docker.com/compose/)
 
-## **Q&A Session:** :raising_hand:
-Engage in an open Q&A session with your mentor to address any queries or discussions about specific clean code practices, code formatting, or the art of writing understandable code.
+## Docker Labs
 
-## Action Items:
+Hands on exercise with Docker. You will need to sign in to enroll in the course. You may enroll with your Google account. [Docker hands on exercise](https://kodekloud.com/courses/labs-docker-for-the-absolute-beginner-hands-on/?utm_source=youtube&utm_medium=labs&utm_campaign=docker)
+
+Complete the entire course.
+
+## Q&A Session :raising_hand:
+
+Answer the following basic questions with your mentor:
+
+- What is Docker and why is it used?
+- What is a Docker container? How does it differ from a virtual machine?
+- What's the difference between Docker image to a Docker container?
+- What is the purpose of a Dockerfile?
+- Can you describe the process of creating and using a custom Docker image?
+- What are docker layers? how they are created?
+- What's most common base image operation system that every docker built-on? what's the pro's and con's of it? (Alternative phrase: "Why would you want to switch the base image to a different operation system?)
+- What is Docker Compose and what are its use cases?
+
+## Action Items
+
 - Identify areas for deeper exploration.
 - Get recommendations on resources for further learning.
-- Reflect on how you can integrate the principles of clean code into your coding routine.
+- Reflect on how you can integrate Docker into your current or future projects.
 
-## Recommended Articles and Videos:
-- [Clean Code: A Handbook of Agile Software Craftsmanship](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) - A must-read book by Robert C. Martin that delves into the principles of writing clean, maintainable, and efficient code.
-- [Clean Code: Writing Code for Humans](https://www.freecodecamp.org/news/clean-code-writing-code-for-humans/) - A comprehensive guide to writing clean code that is easy to understand and maintain, emphasizing the human aspect of coding.
-- [The Art of Readable Code: Simple and Practical Techniques for Writing Better Code](https://www.amazon.com/Art-Readable-Code-Practical-Techniques/dp/0596802293) - A book by Dustin Boswell and Trevor Foucher that offers practical techniques for writing code that is easy to understand and maintain.
-- [The Clean Code Blog](https://blog.cleancoder.com/) - A blog by Robert C. Martin, the author of "Clean Code," where he shares insights and best practices for writing clean, maintainable, and efficient code.
+Congratulations on completing Day 10! You've taken a significant step in mastering Docker, an essential tool in the toolkit of modern developers. 🐳
