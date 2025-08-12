@@ -72,8 +72,6 @@
 15) What is dynamic catalog mangment?
 16) What is spi in Trino?
 
-
-
 # 🧪 Trino Hands-On Practice: Setting Up Catalogs and Querying External Data
 
 ## 🎯 Goals
