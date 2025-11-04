@@ -58,8 +58,8 @@
 2) Which data sources are supported by Trino, and how is connectivity achieved?
 3) What is the role of the coordinator and worker in Trino?
 4) How does Trino achieve high performance and efficiency when query processing?
-5) Give an example for a use case where Trino beneficial?
-6) What is the role of a catalog in Trino? and how is it configured?
+5) Give an example for a use case where Trino is beneficial?
+6) What is the role of a catalog in Trino? How is it configured?
 7) How does Trino implement end to end fault tolerance?
 8) compare Trino to Hive and Impala:
 query complexity, use cases, performance and more.
