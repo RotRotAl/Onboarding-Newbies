@@ -56,16 +56,17 @@
 ### Questions: ❓
 1) What is Trino and what problem does it solve?
 2) Which data sources are supported by Trino, and how is connectivity achieved?
-3) What is the role of the coordinator and worker in Trino's distributed query execution model?
+3) What is the role of the coordinator and worker in Trino?
 4) How does Trino achieve high performance and efficiency in query processing?
-5) Can you describe a use case where Trino would be particularly beneficial?
+5) Give an example for a use case where Trino beneficial?
 6) What is the role of a catalog in Trino? and how is it configured?
-7) How Trino implemnts end to end fault tolernce?
-8) Compare Trino to Hive,Impala and spark refer to query complexity, use case suitability,performance and more.
+7) How does Trino implemnts end to end fault tolernce?
+8) compare Trino to Hive and Impala:
+query complexity, use cases, performance and more.
 9) How does Trino optimize queries involving joins or aggregations across large datasets?
 10) How does Trino handle data types from different data sources?
-11) What are Trino Resource Groups, How to config those?
-12) What is Trino Gateway? How to setup new Trino Gateway?
+11) What are Trino Resource Groups?, How can I configure them?
+12) What is Trino Gateway? How can i set up new Trino Gateway?
 13) What authentication and authorization mechanisms are supported by Trino?
 14) What are the main downsides or limitations of using Trino?
 (Consider factors like query performance at extreme scale, compatibility with certain data sources, operational complexity, or limitations in handling highly transactional workloads.)
